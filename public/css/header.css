@@ -7,6 +7,7 @@
 }
 .home header .logo img{
     border-radius: 50%;
+    border: 1px solid var(--colorGris);
 }
 .home header button{
     width: 50px;

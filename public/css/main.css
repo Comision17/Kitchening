@@ -1,11 +1,46 @@
+.home main .banner{
+    display: none;
+}
 .home main section article{
     margin: 20px 0;
+    position: relative;
 }
-
-.home main section img{
+.home main section .producto{
     width: 100%;
 }
-
+.home main section .etiqueta{
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}
 .home main section h3{
     margin: 15px 0;
 }
+
+.home main section p{
+    color: var(--colorGris);
+}
+
+.home main section a{
+    display: inline-block;
+    margin: 20px 0 0;
+    background-color: var(--colorGris);
+    /* max-width: 75px; */
+    /* text-align: center; */
+    padding: 10px;
+    color: var(--colorBlanco);
+}
+
+.home main section .ampliar{
+    display: block;
+    text-align: center;
+    /* opacity: 70%; */
+    position: absolute;
+    top: 20%;
+    /* padding: 10px 165px; */
+    width: 100%;
+    background-color: var(--colorTransparente);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
