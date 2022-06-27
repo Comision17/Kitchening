@@ -44,3 +44,15 @@
     font-weight: bold;
 }
 
+/* Tablet */
+
+@media (min-width:460px) {
+    .home main .banner{
+        display: block;
+        
+    }
+    .home main .banner img{
+        width: 100%;
+    }
+}
+

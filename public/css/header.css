@@ -29,3 +29,9 @@
     color: var(--colorBlanco);
     text-transform: uppercase;
 }
+/* Tablet */
+@media (min-width:460px) {
+    .home header button{
+        display: none;
+    }
+}
