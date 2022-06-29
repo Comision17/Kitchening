@@ -31,7 +31,27 @@
 }
 /* Tablet */
 @media (min-width:460px) {
+    .home header{
+        padding-bottom: 20px;
+    }
     .home header button{
         display: none;
     }
+    .home header ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .home header ul li{
+        width: 16%;
+        font-size: 0.5rem;
+    }
+}
+@media (min-width:560px) {
+    .home header ul li{
+        font-size: 68%;
+    }
+}
+@media (min-width:780px) {
+
 }
