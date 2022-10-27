@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/1a451b1708.js" crossorigin="anonymous"></script>
     <!-- Css -->
     <link rel="stylesheet" href="/css/estilos.css">
+    
 </head>
 <body class="home">
     <header>
@@ -16,10 +17,10 @@
             <img src="/images/logo.jpg" alt="">
         </div>
 
-        <button><i class="fas fa-hamburger"></i></button>
+        <button id="hamburguesita"><i class="fas fa-hamburger"></i></button>
         
-        <ul>
-            <li><a href="#">Home</a></li>
+        <ul id="menu">
+            <li id="container" class="kitchening"><a href="/home" id="home">Home</a></li>
             <li><a href="#">Quienes</a></li>
             <li><a href="#">Servicios</a></li>
             <li><a href="#">Porfolio</a></li>
@@ -96,10 +97,8 @@
 
     </main>
     <footer>
-        <div class="goTop">
-            <a href="#">
-                <i class="fas fa-arrow-circle-up"></i>
-            </a>
+        <div class="goTop" id="goTop">
+            <i class="fas fa-arrow-circle-up"></i>
         </div>
         <ul>
             <li><a href="#">Home</a></li>
@@ -110,5 +109,8 @@
             <li><a href="#">Contacto</a></li>
         </ul>
     </footer>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/scrollTop.js"></script>
 </body>
 </html>

@@ -14,6 +14,7 @@ app.use(connectLivereload());
 
 
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', 'index.html')))
+app.get('/pruebas', (req,res) => res.sendFile(path.join(__dirname, 'views', 'elementos.html')))
 
 liveReloadServer.server.once("connection", () => {
     setTimeout(() => {
